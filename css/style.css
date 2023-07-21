@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 70px;
+}
+
+form{
+    max-width: 484px;
+    margin: 20px auto;
+    display: flex;
+    gap: 8px;
+}
+.input{
+    width: 321px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 1px solid #007fff;
+    outline: none;
+}
+
+.btn{
+    border-radius: 10px;
+    border: none;
+    background-color: #007fff;
+    color: #fff;
+    padding: 10px 60px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.btn:hover{
+    box-shadow: 0px 0px 10px #007fff;
+}
+
+hr{
+    margin-top: 42px;
+}
+
+.card{
+    padding: 25px;
+    height: 90px;
+    width: 282px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    border: 1px solid #007fff;
+    position: relative;
+    transition: all ease .4s;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 40px #007fff;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 18px;
+}
+
+.red{
+    box-shadow: 0px 0px 10px red;
+}
+
+.remove{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+h4{
+    font-size: 18px;
+}
+
+p{
+    margin-top: 15px;
+    color: rgba(0, 0, 0, .55);
+}
+
+.clearBtn{
+    display: block;
+    margin: 20px auto 0;
+}
+
+.none{
+    display: none;
+}
